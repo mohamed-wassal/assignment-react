@@ -30,7 +30,7 @@ async function checkOut() {
         headers:{
           token: localStorage.getItem("token")
         }, params:{
-          url:"https://assignment-react-mu.vercel.app/"
+          url:"https://assignment-react-mu.vercel.app/#"
         }
        
       })
